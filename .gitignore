@@ -129,5 +129,7 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# packahe-lock
-package-lock.json
+# Ignorar package-lock.json 
+package-lock.json 
+# Ignorar archivos de entorno 
+.env
