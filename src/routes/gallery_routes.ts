@@ -3,11 +3,11 @@ import { createGallery, deleteGallery, getGallery, getGalleryById, updateGallery
 
 const galleryRoutes = Router();
 
-galleryRoutes.post('/gallery', createGallery); // crear plant
-galleryRoutes.get('/gallery', getGallery); // Consultar planetas o plante nombre query params
-galleryRoutes.get('/gallery/:id', getGalleryById); // Consultar planeta por Id query params
-galleryRoutes.put('/gallery', updateGallery); // Modificar planeta por nombre query params
-galleryRoutes.delete('/gallery', deleteGallery); // Eliminar planeta por query params
+galleryRoutes.post('/gallery', createGallery);
+galleryRoutes.get('/gallery', getGallery); 
+galleryRoutes.get('/gallery/:id', getGalleryById); 
+galleryRoutes.put('/gallery', updateGallery);
+galleryRoutes.delete('/gallery', deleteGallery); 
 
 
 export {galleryRoutes};

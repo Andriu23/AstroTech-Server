@@ -19,7 +19,7 @@ app.use('/api', galleryRoutes)
 app.use('/api', plantRoutes);
 app.use('/api', projectRoutes);
 app.use('/api', contactRoutes);
-app.use('/api', usersRoutes)
+app.use('/api', usersRoutes);
 
 app.listen(port, () => {
     console.log(`Estoy corriendo en el puerto ${port}`);

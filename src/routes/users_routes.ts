@@ -4,8 +4,8 @@ import { createUser, getUsers } from "../controllers/users_controller";
 
 const usersRoutes = Router();
 
-usersRoutes.post('/users', createUser); // crear plant
-usersRoutes.get('/users', getUsers); // Consultar planetas o plante nombre query params
+usersRoutes.post('/users', createUser); 
+usersRoutes.post('/getUsers', getUsers); 
 
 
 export {usersRoutes};
