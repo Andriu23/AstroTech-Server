@@ -133,6 +133,3 @@ dist
 package-lock.json 
 # Ignorar archivos de entorno 
 .env
-
-# lib compile
-lib/
