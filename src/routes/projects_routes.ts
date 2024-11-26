@@ -1,7 +1,6 @@
 import { Router } from "express";
 import { createProject, deleteProject, getProjects, getProjectsById, updateProject } from "../controllers/project_controller";
 
-
 const projectRoutes = Router();
 
 projectRoutes.post('/projects', createProject); 
