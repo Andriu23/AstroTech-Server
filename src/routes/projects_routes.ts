@@ -7,7 +7,7 @@ projectRoutes.post('/projects', createProject);
 projectRoutes.get('/projects', getProjects);
 projectRoutes.get('/projects/:id', getProjectsById); 
 projectRoutes.put('/projects', updateProject); 
-projectRoutes.delete('/projects', deleteProject); 
+projectRoutes.delete('/projects/:id', deleteProject); 
 
 
 export {projectRoutes};
